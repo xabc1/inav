@@ -37,8 +37,8 @@
 
 // I2C
 #define USE_I2C
-#define USE_I2C_DEVICE_2
-#define I2C_DEVICE_2_SHARES_UART3
+#define USE_I2C_DEVICE_1
+//#define I2C_DEVICE_2_SHARES_UART3
 
 #define USE_EXTI
 #define GYRO_INT_EXTI            PC8
@@ -185,4 +185,4 @@
 #define TARGET_IO_PORTC         0xffff
 #define TARGET_IO_PORTD         0xffff
 
-#define PCA9685_I2C_BUS         BUS_I2C2
+#define PCA9685_I2C_BUS         BUS_I2C1
