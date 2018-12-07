@@ -63,7 +63,7 @@
 #define ACC_MPU6000_ALIGN       CW180_DEG
 
 #define USE_MAG
-#define MAG_I2C_BUS             BUS_I2C2
+#define MAG_I2C_BUS             BUS_I2C1
 #define USE_MAG_HMC5883
 #define USE_MAG_QMC5883
 #define USE_MAG_IST8310
@@ -77,10 +77,10 @@
 #define BMP280_CS_PIN         PB3
 
 #define USE_PITOT_MS4525
-#define PITOT_I2C_BUS           BUS_I2C2
+#define PITOT_I2C_BUS           BUS_I2C1
 
 #define USE_RANGEFINDER
-#define RANGEFINDER_I2C_BUS     BUS_I2C2
+#define RANGEFINDER_I2C_BUS     BUS_I2C1
 #define USE_RANGEFINDER_HCSR04_I2C
 
 #define USE_VCP
